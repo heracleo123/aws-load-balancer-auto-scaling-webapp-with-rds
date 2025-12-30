@@ -1,0 +1,46 @@
+# Terraform Configuration Files (.tfstate files contain sensitive data)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive Configuration (contains passwords and secrets)
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+backup/
+*-original.tf
+*-backup.tf
+
+# AWS specific
+.aws/
+credentials
