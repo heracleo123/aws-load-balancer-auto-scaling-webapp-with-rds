@@ -120,4 +120,4 @@ Check out `QUICKSTART.md` for an even simpler walkthrough, or explore the `.tf` 
 ---
 
 **Happy building!** 👩‍💻👨‍💻  
-*Once deployed, you’ll have a real, scalable web app running on AWS—great for your portfolio and cloud learning journey.*
+*Once deployed, you’ll have a real, scalable web app running on AWS. The best of luck to your cloud learning journey.*
